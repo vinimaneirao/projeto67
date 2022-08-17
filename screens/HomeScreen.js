@@ -51,7 +51,7 @@ export default class HomeScreen extends Component {
             <TouchableOpacity
               style={styles.buttons}
               onPress ={this.teamB()}>
-              <Text style={{ fontSize:20, color : "green"}}>Equipe B</Text>
+              <Text style={{ fontSize:40, color : "green"}}>Equipe B</Text>
             </TouchableOpacity>
 
           </View>
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   buttons: {
-    backgroundColor:"pink",
+    backgroundColor:"green",
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
